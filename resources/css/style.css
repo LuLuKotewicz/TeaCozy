@@ -21,10 +21,14 @@ header {
 
 h2 {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 h4 {
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .logo {
@@ -50,6 +54,7 @@ nav span {
 nav span a {
   color: seashell;
 }
+
 .main {
   display: flex;
   flex-direction: column;
@@ -71,7 +76,40 @@ nav span a {
 }
 
 .intro {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   background-color: black;
   z-index: 10;
+  padding: 10px;
   width: 1200px;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 52px;
+  width: 1000px;
+}
+
+.featured-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 1000px;
+}
+
+.featured-img {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 250px;
+  margin: 15px 15px 0 15px;
+}
+
+.featured-img h4 {
 }
