@@ -27,8 +27,8 @@ h2 {
 
 h4 {
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -90,7 +90,7 @@ nav span a {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 52px;
+  padding-top: 80px;
   width: 1000px;
 }
 
@@ -99,17 +99,11 @@ nav span a {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  width: 1000px;
 }
 
 .featured-img {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: block;
   width: 300px;
-  height: 250px;
-  margin: 15px 15px 0 15px;
-}
-
-.featured-img h4 {
+  height: 200px;
+  margin: 15px 15px 10px 15px;
 }
